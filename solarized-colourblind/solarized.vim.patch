@@ -1,0 +1,37 @@
+diff --git i/colors/solarized.vim w/colors/solarized.vim
+--- i/colors/solarized.vim
++++ w/colors/solarized.vim
+@@ -695,7 +695,7 @@ exe "hi! helpNote"          .s:fmt_none    .s:fg_magenta.s:bg_none
+ exe "hi! helpVim"           .s:fmt_none    .s:fg_magenta.s:bg_none
+ exe "hi! helpHyperTextJump" .s:fmt_undr    .s:fg_blue   .s:bg_none
+ exe "hi! helpHyperTextEntry".s:fmt_none    .s:fg_green  .s:bg_none
+-exe "hi! vimIsCommand"      .s:fmt_none    .s:fg_base00 .s:bg_none
++exe "hi! vimIsCommand"      .s:fmt_bold    .s:fg_base00 .s:bg_none
+ exe "hi! vimSynMtchOpt"     .s:fmt_none    .s:fg_yellow .s:bg_none
+ exe "hi! vimSynType"        .s:fmt_none    .s:fg_cyan   .s:bg_none
+ exe "hi! vimHiLink"         .s:fmt_none    .s:fg_blue   .s:bg_none
+@@ -759,12 +759,12 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
+ " }}}
+ " html highlighting "{{{
+ " ---------------------------------------------------------------------
+-exe "hi! htmlTag"           .s:fmt_none .s:fg_base01 .s:bg_none
+-exe "hi! htmlEndTag"        .s:fmt_none .s:fg_base01 .s:bg_none
++exe "hi! htmlTag"           .s:fmt_bold .s:fg_base00 .s:bg_none
++exe "hi! htmlEndTag"        .s:fmt_bold .s:fg_base00 .s:bg_none
+ exe "hi! htmlTagN"          .s:fmt_bold .s:fg_base1  .s:bg_none
+ exe "hi! htmlTagName"       .s:fmt_bold .s:fg_blue   .s:bg_none
+ exe "hi! htmlSpecialTagName".s:fmt_ital .s:fg_blue   .s:bg_none
+-exe "hi! htmlArg"           .s:fmt_none .s:fg_base00 .s:bg_none
++exe "hi! htmlArg"           .s:fmt_none .s:fg_base01 .s:bg_none
+ exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
+ "}}}
+ " perl highlighting "{{{
+@@ -824,7 +824,7 @@ exe "hi! cPreCondit". s:fg_orange.s:bg_none   .s:fmt_none
+ exe "hi! VarId"    . s:fg_blue   .s:bg_none   .s:fmt_none
+ exe "hi! ConId"    . s:fg_yellow .s:bg_none   .s:fmt_none
+ exe "hi! hsImport" . s:fg_magenta.s:bg_none   .s:fmt_none
+-exe "hi! hsString" . s:fg_base00 .s:bg_none   .s:fmt_none
++exe "hi! hsString" . s:fg_base00 .s:bg_none   .s:fmt_bold
+ 
+ exe "hi! hsStructure"        . s:fg_cyan   .s:bg_none   .s:fmt_none
+ exe "hi! hs_hlFunctionName"  . s:fg_blue   .s:bg_none

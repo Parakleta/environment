@@ -1,0 +1,62 @@
+URxvt.font: -*-terminesspowerline-medium-r-normal-*-12-*-*-*-*-*-iso10646-1
+! intensityStyles must be disabled to prevent shifting colour value +8 for
+! high intensity in the absence of a bold font.  Not required if a bold font
+! exists.
+URxvt.intensityStyles: false
+
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
+
+! Common
+!
+! Intensities are
+! 65,55,50,50,55,55,55,55
+
+#define S_yellow        #ca9519
+#define S_orange        #df5922
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #ba5dd3
+#define S_blue          #008dd1
+#define S_cyan          #0095ae
+#define S_green         #589300
+
+! Dark
+
+#define S_base03        #001721
+#define S_base02        #002b36
+#define S_base00        #375760
+#define S_base01        #586e75
+#define S_base0         #73878c
+#define S_base1         #93a1a1
+#define S_base2         #d2ccb9
+#define S_base3         #fdf6e3
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+URxvt.background:              S_base03
+URxvt.foreground:              S_base0
+URxvt.fading:                  10
+URxvt.fadeColor:               S_base03
+URxvt.cursorColor:             S_base1
+URxvt.pointerColorBackground:  S_base01
+URxvt.pointerColorForeground:  S_base1
+
+URxvt.color0:                  S_base02
+URxvt.color1:                  S_red
+URxvt.color2:                  S_green
+URxvt.color3:                  S_yellow
+URxvt.color4:                  S_blue
+URxvt.color5:                  S_magenta
+URxvt.color6:                  S_cyan
+URxvt.color7:                  S_base2
+URxvt.color8:                  S_base03
+URxvt.color9:                  S_orange
+URxvt.color10:                 S_base01
+URxvt.color11:                 S_base00
+URxvt.color12:                 S_base0
+URxvt.color13:                 S_violet
+URxvt.color14:                 S_base1
+URxvt.color15:                 S_base3
+
