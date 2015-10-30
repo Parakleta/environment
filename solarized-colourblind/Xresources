@@ -30,7 +30,7 @@ URxvt.intensityStyles: false
 #define S_base01        #586e75
 #define S_base0         #73878c
 #define S_base1         #93a1a1
-#define S_base2         #d2ccb9
+#define S_base2         #e0d9cb
 #define S_base3         #fdf6e3
 
 ! To only apply colors to your terminal, for example, prefix

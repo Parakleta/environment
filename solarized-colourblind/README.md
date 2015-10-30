@@ -60,7 +60,7 @@ emboldened it (which only helps if you have a bold font).
     base01    #586e75  45 -07 -07  50 -07 -07
     base0     #73878c  55 -06 -05  60 -06 -03
     base1     #93a1a1  65 -05 -02  65 -05 -02
-    base2     #d2ccb9  87  00  10  92 -00  10
+    base2     #e0d9cb  87  00  08  92 -00  10
     base3     #fdf6e3  97  00  10  97  00  10
     yellow    #ca9519  65  10  65  60  10  65
     orange    #df5922  55  50  55  50  50  55
