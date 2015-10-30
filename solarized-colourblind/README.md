@@ -52,22 +52,22 @@ emboldened it (which only helps if you have a bold font).
 
 ## Tabled Values
 
-    SOLARIZED HEX      L*A*B
-    --------- -------  ----------
-    base03    #001721   5 -12 -12
-    base02    #002b36  15 -12 -12
-    base00    #375760  35 -09 -09
-    base01    #586e75  45 -07 -07
-    base0     #73878c  55 -06 -05
-    base1     #93a1a1  65 -05 -02
-    base2     #d2ccb9  87  00  10
-    base3     #fdf6e3  97  00  10
-    yellow    #ca9519  65  10  65
-    orange    #df5922  55  50  55
-    red       #dc322f  50  65  45
-    magenta   #d33682  50  65 -05
-    violet    #ba5dd3  55  55 -45
-    blue      #008dd1  55 -10 -45
-    cyan      #0095ae  55 -35 -25
-    green     #589300  55 -40  65
+    SOLARIZED HEX      L*A*B       Original
+    --------- -------  ----------  ----------
+    base03    #001721   5 -12 -12  15 -12 -12
+    base02    #002b36  15 -12 -12  20 -12 -12
+    base00    #375760  35 -09 -09  45 -07 -07
+    base01    #586e75  45 -07 -07  50 -07 -07
+    base0     #73878c  55 -06 -05  60 -06 -03
+    base1     #93a1a1  65 -05 -02  65 -05 -02
+    base2     #d2ccb9  87  00  10  92 -00  10
+    base3     #fdf6e3  97  00  10  97  00  10
+    yellow    #ca9519  65  10  65  60  10  65
+    orange    #df5922  55  50  55  50  50  55
+    red       #dc322f  50  65  45  50  65  45
+    magenta   #d33682  50  65 -05  50  65 -05
+    violet    #ba5dd3  55  55 -45  50  15 -45
+    blue      #008dd1  55 -10 -45  55 -10 -45
+    cyan      #0095ae  55 -35 -25  60 -35 -05
+    green     #589300  55 -40  65  60 -20  65
 
